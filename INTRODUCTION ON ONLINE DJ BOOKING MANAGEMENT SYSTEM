@@ -1,0 +1,38 @@
+ONLINE DJ BOOKING MANAGEMENT SYSTEM
+
+1.OVERVIEW
+
+ONLINE DJ BOOKING MANAGEMENT SYSTEM is the system that will help people to book the Dj that will entertain them according to the ceremony they have online. 
+This system will be working online where person who has event will access this system and book Dj according to the event he/she has.
+
+FRAMEWORK USED: Laravel php Framework
+2. MVC (Models, views and controllers)
+MODELS:
+•	User.php:
+VIEWS:
+•	Index.blade.php:  it consist of codes that made up home page of our project
+•	Services.blade.php: it consist codes that shows the services that will be provided by our project.
+•	Book-service.blade.php : it consist codes that show how to book different service
+•	Contact.blade.php : it’ss about our address and telephone number
+•	About.blade.php: Contain same additional information about project.
+CONTROLLERS:
+•	AboutController.php: completes action done from About.blade.php
+•	Book-serviceController.php: completes action done from Book-service.blade.php
+•	contactController.php: completes action done from Contact.blade.php
+•	servicesController.php: completes action done from Services.blade.php
+•	indexController.php: completes action done from Index.blade.php
+3. How to run the Online DJ Booking Management System Project 
+ Extract the file and copy odms folder
+Paste inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+ Open PHPMyAdmin (http://localhost/phpmyadmin)
+ Create a database with name odmsdb
+ Import odmsdb.sql file (given inside the zip package in SQL file folder)
+Run the script http://127.0.0.1:8000/index
+Admin Credential:
+Username: admin
+Password: Test@123
+
+4. Authors
+NTWALI MALIKI: 18RP036199
+DUSENGE USSAMA: 18RP04579
+
