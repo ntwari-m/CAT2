@@ -21,18 +21,20 @@ CONTROLLERS:
 •	contactController.php: completes action done from Contact.blade.php
 •	servicesController.php: completes action done from Services.blade.php
 •	indexController.php: completes action done from Index.blade.php
-3. How to run the Online DJ Booking Management System Project 
- Extract the file and copy odms folder
-Paste inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
- Open PHPMyAdmin (http://localhost/phpmyadmin)
- Create a database with name odmsdb
- Import odmsdb.sql file (given inside the zip package in SQL file folder)
-Run the script http://127.0.0.1:8000/index
-Admin Credential:
-Username: admin
-Password: Test@123
+3. How to run the Online DJ Booking Management System Project
+  INSTALL COMPOSER
+  Check if it is running well
+  Extract the file and copy odms folder
+  Paste inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+  Open PHPMyAdmin (http://localhost/phpmyadmin)
+  Create a database with name odmsdb
+  Import odmsdb.sql file (given inside the zip package in SQL file folder)
+  Run the script http://127.0.0.1:8000/index
+  Admin Credential:
+  Username: admin
+  Password: Test@123
 
 4. Authors
-NTWALI MALIKI: 18RP036199
-DUSENGE USSAMA: 18RP04579
+   NTWALI MALIKI: 18RP036199
+   DUSENGE USSAMA: 18RP04579
 
